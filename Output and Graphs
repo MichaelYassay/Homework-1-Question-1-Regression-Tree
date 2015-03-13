@@ -1,0 +1,10 @@
+ > summary(treefit)
+
+Regression tree:
+tree(formula = log(MedianHouseValue) ~ Longitude + Latitude, 
+    data = calif)
+Number of terminal nodes:  12 
+Residual mean deviance:  0.1662 = 3429 / 20630 
+Distribution of residuals:
+    Min.  1st Qu.   Median     Mean  3rd Qu.     Max. 
+-2.75900 -0.26080 -0.01359  0.00000  0.26310  1.84100
